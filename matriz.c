@@ -9,7 +9,10 @@ void	matriz(int x, int y) //x = larg, y = alt
 	larg = 1;
 	alt = 1;
 	if (x < 1 || y < 1)
+	{
+		printf("Atribua valores maior que zero");
 		return;
+	}
 	while (alt <= y)
 	{
 		while (larg <= x)
